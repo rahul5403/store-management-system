@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product Form</title>
+    <link rel="stylesheet" href="addproductc.css">
+</head>
+<body>
+    <div class="cont">
+    <p><h1>Welcome to the E Mart</h1></p>
+    <p>Enter the product details to add product</p>
+    <form action="addproduct.php" method="post">
+        <label for="idid">Product Id:</label>
+        <input type="text" name="nid" id="idid" placeholder="Enter the Product Id" required>
+        <label for="idname">Product Name:</label>
+        <input type="text" name="nname" id="idname" placeholder="Enter the Product Name">
+        <label for="idtype">Product Type:</label>
+        <input type="text" name="ntype" id="idtype" placeholder="Enter the Product Type">
+        <label for="idquantity">Quantity:</label>
+        <input type="number" name="nquantity" id="idquantity" placeholder="Enter the Product Quantity">
+        <label for="idprice">Price:</label>
+        <input type="number" name="nprice" id="idprice" placeholder="Enter the Product Price" required>
+        <label for="iddate">Expirydate:</label>
+        <input type="date" name="ndate" id="iddate" placeholder="Enter the Product Expirydate" required>
+        <div class="btn">
+        <input type="submit" value="Add">
+    </div>
+    </form>
+
+</div>
+
+</body>
+</html>
+

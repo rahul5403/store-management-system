@@ -1,0 +1,268 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  background-color: rgb(255, 245, 231);
+
+}
+.cont{
+  max-width: 100%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgb(255, 208, 150);
+  padding: 10px;
+  /* margin-bottom: 20px; */
+}
+
+
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 20px;
+  padding: 0;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: bisque;
+  font-size: 18px;
+  transition: 0.2s;
+  width: 90%;
+  margin: auto;
+  
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: rgb(255, 249, 241);
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: rgb(255, 200, 129);
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: rgb(130, 255, 130);
+  color: black;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: bisque;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Style the header */
+.header {
+  background-color: rgb(255, 217, 170);
+  padding: 30px 40px;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 100%;
+  margin: 50px;
+
+}
+
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 40%;
+  padding: 10px;
+  /* float: none; */
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px 90px;
+  width: 10%;
+  background: rgb(255, 243, 228);
+  color: #555;
+  /* float: right; */
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: rgb(255, 206, 146);
+  color: white;
+}
+.cart{
+  background-color: rgb(255, 238, 218);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+  max-width: 100%;
+}
+.ct{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* float: center; */
+  /* margin-left: 20px; */
+}
+
+.head ,h1{
+  text-align: center;
+  /* padding: 10px; */
+}
+.head p{
+  text-align: right;
+  margin-right:10px ;
+  color: black;
+}
+.nt button{
+  background-color: #ff6459;
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin: 2px;
+  border-color: #ff6459;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+.nt button:hover{
+  background-color: #ff2919;
+}
+
+.head a{
+  color: black;
+  text-decoration: none;
+}
+
+
+.first{
+  float: left;
+  width: 49%;
+  /* margin: auto; */
+  margin-bottom: 10px;
+  background-color: bisque;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.second{
+  float: right;
+  width: 49%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: bisque;
+  border-radius: 20px;
+}
+.slg{
+  float: left;
+  margin-left: 30px;
+
+}
+.slg img{
+  width: 69px;
+  position: absolute;
+}
+
+.cont h1{
+  padding: 12px;
+  margin: 10px;
+}
+.main{
+  background-color: rgb(255, 240, 221);
+  border-radius: 10px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.main h2{
+  margin-left: 40px;
+  padding: 10px;
+}
+table,tr,td,th{
+  border: 1px solid black;
+  text-align: center;
+}
+table{
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  /* margin-bottom: 20px; */
+}
+table th,td{
+  padding: 10px;
+}
+.beta{
+  margin: 30px;
+  text-align: center;
+}
+.be{
+  font-size: 20px;
+  background-color: rgb(255, 242, 227);
+  border-radius: 10px;
+  padding: 20px;
+}
+.beta input{
+  margin: 20px;
+  border-radius: 10px;
+  border-color: rgb(255, 255, 239);
+  background-color: rgb(255, 255, 239);
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+
+}
+.nt{
+  text-align: right;
+  margin: auto;
+  margin-right: 20px;
+}
+
+.fd{
+  width: 99%;
+}

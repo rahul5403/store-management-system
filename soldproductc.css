@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(255, 243, 228);
+    padding: 10px;
+}
+.row{
+    background-color: bisque;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    margin: auto;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+h1{
+    padding: 20px;
+}
+
+.row input{
+    padding: 5px;
+    margin: 10px;
+}
+
+#next{
+    background-color: rgb(255, 243, 228);
+    /* display: flex; */
+    /* padding: 20px; */
+   /* display: inline-block;  */
+ }
+   
+    
+/* .continer{
+   padding: auto;
+   margin: auto;
+}  */
+
+
+#addrow{
+    background-color: rgb(101, 181, 255);
+    float: right;
+    margin-right: 40px;
+    padding: 10px 20px;
+    border-color: rgb(138, 198, 255);
+    border-radius: 10px;
+}
+.submit{
+    background-color: rgb(32, 239, 105);
+    float: center;
+    /* margin: auto; */
+    padding: 10px 20px;
+    border-color: rgb(32, 239, 105);
+    border-radius: 10px;
+}
+
+#next input{
+    /* padding: 5px; */
+    margin: 10px;
+}
+.sum{
+    text-align: center;
+}
+input[type='button']{
+    background-color: rgb(248, 109, 59);
+    border-radius: 10px;
+    border-color: rgb(248, 109, 59);
+    padding: 8px 15px;
+    float: center;
+}
+
+.hd{
+    background-color: rgb(255, 205, 143);
+    padding: 10px;
+    border-radius: 10px;
+}
+input{
+    border-radius: 10px;
+    border-style: none;
+}
+.slg{
+    float: left;
+    margin-left: 30px;
+
+}
+.slg img{
+    width: 69px;
+    position: absolute;
+}

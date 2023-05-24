@@ -1,0 +1,42 @@
+body{
+    background-color: beige;
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+.container{
+    background-color: antiquewhite;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    height: auto;
+}
+h1{
+    background-color: bisque;
+    border-radius: 20px;
+    text-align: center;
+    height: 50px;
+    
+}
+.form-group{
+    width: 500px;
+    padding: 20px;
+}
+.bb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+input[type="submit"]{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(219, 195, 164);
+    border-radius: 10px;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}

@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 250, 245);
+}
+.cont{
+    margin: auto;
+    background-color: rgb(255, 211, 157);
+    max-width: 90%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+.cont h1{
+    padding: 12px;
+    margin: 10px;
+}
+.main{
+    background-color: rgb(255, 240, 221);
+    border-radius: 10px;
+    text-align: left;
+    
+}
+.main h2{
+    margin-left: 40px;
+    padding: 5px;
+}
+table,tr,td,th{
+    border: 1px solid black;
+    text-align: center;
+}
+table{
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+table th,td{
+    padding: 10px;
+}
+.add{
+    justify-content: right;
+    float: right;
+    margin-right: 40px;
+    padding: 10px;
+
+}
+
+button{
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+.delete{
+    padding: 5px 18px;
+    background-color: rgb(248, 74, 74);
+    border-color: rgb(248, 74, 74);
+}
+.tab{
+    padding: 10px;
+}
+.edit{
+    background-color: rgb(115, 173, 255);
+    border-color: rgb(115, 173, 255);
+}
+.addbtn{
+    background-color: rgb(46, 149, 46);
+    border-color: rgb(46, 149, 46);
+    color: black;
+}
+.addbtn a{
+    text-decoration: none;
+    color: black;
+}
+.edit a{
+    text-decoration: none;
+    color: black;
+}
+.delete a{
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    cursor: pointer;
+    font-style:italic;
+}
+
+.sold{
+    padding: 20px;
+}
+.sold h2{
+    text-align: left;
+}
+.manage a{
+    text-decoration: none;
+    color: black;
+}
+.manage{
+    background-color: aqua;
+    border-color: aqua;
+}
+.detail a{
+    text-decoration: none;
+    color: black;
+}
+.detail{
+    background-color: aqua;
+    border-color: aqua;
+    padding: 6px 30px;
+}
+.slg{
+    float: left;
+    margin-left: 20px;
+
+}
+.slg img{
+    width: 69px;
+    position: absolute;
+}

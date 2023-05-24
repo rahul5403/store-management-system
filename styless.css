@@ -1,0 +1,120 @@
+body {
+  /* background-color: rgb(65, 65, 67); */
+  /* display: flex; */
+  background: linear-gradient(to bottom,#7B3F00 0%, #ffffff 100%);
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  /* padding-right:20%;
+  padding-left: 20%; */
+}
+.table-container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.monthly-sales{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+  border-style:dashed ;
+}
+
+th {
+  background-color: #333333;
+}
+
+tr {
+  height: 30px;
+  background-color: #333333;
+}
+
+.product-id {
+  width: 10%;
+}
+
+.product-name {
+  width: 30%;
+}
+
+.product-type {
+  width: 10%;
+}
+
+.product-quantity {
+  width: 10%;
+}
+
+.product-expiry-date {
+  width: 15%;
+}
+
+.product-price{
+  width: 10%;
+}
+
+h1{
+  color: aliceblue;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+hr{
+  border:none;
+  border-top: 10px dotted;
+  color: aliceblue;
+  width: 20%;
+}
+
+nav { 
+  /* background: linear-gradient(to top,#7B3F000f   0%, #a59c55 100%); */
+  background-color:#FFFBE9;
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+nav li {
+  flex: 1;
+}
+
+nav a {
+  color: rgb(21, 8, 8);
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+nav a:hover {
+color: black;
+}
